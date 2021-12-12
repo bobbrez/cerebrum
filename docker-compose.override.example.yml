@@ -1,0 +1,10 @@
+version: '3.7'
+services:
+  web:
+    environment:
+      DB_TYPE: 'mysql'
+      DB_HOST: 'database'
+      DB_PORT: 3306
+      DB_USER: 'wikiuser234234'
+      DB_PASS: 'YOUR_SECURE_PASSWORD'
+      DB_NAME: 'wiki'
